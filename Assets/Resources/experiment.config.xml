@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+    <Config>
+      <PopulationSize>100</PopulationSize>
+      <SpecieCount>10</SpecieCount>
+      <Activation>
+        <Scheme>Acyclic</Scheme>
+<!--         <Scheme>CyclicFixedIters</Scheme>
+        <Iters>10</Iters> -->
+      </Activation>
+      <ComplexityRegulationStrategy>Absolute</ComplexityRegulationStrategy>
+      <ComplexityThreshold>21</ComplexityThreshold>
+      <Description>
+      </Description>
+
+    </Config>

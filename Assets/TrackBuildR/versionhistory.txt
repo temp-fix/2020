@@ -1,0 +1,133 @@
+------------------------------------------------------
+Version History
+------------------------------------------------------
+Any issues, comments or suggestions please send to email@jasperstocker.com
+
+------------------------------------------------------
+1.36 - 21 October 2016
+------------------------------------------------------
+Fixed KML not working on some line tracks
+Fixed boundard generation issue
+
+------------------------------------------------------
+1.35 - 7 May 2016
+------------------------------------------------------
+Fixed shader settings kept in prefabs on export
+Fixed physics material settings kept on prefab export
+
+------------------------------------------------------
+1.34 - 2 October 2015
+------------------------------------------------------
+Fixed Android not compiling correctly
+Fixed export prefab dropping the offroad parts
+
+------------------------------------------------------
+1.33 - 3 June 2015
+------------------------------------------------------
+Fixed issue with track ends not being rendered
+Fixed issue with UVs not calculated correctly with substances
+Fixed bi normal setting on tangents
+Fixed textures not being set track wide
+
+------------------------------------------------------
+1.32 - 26 April 2015
+------------------------------------------------------
+Fixed lightmap issue
+Fixed UV issues with continuous track and texture size
+Fixed KML file format error
+
+------------------------------------------------------
+1.31 - 15 April 2015
+------------------------------------------------------
+Fixed issue with track texture size not modifying rendered size.
+Fixed UV offset for smoother transitions between track curves.
+
+------------------------------------------------------
+1.3 - 22 March 2015
+------------------------------------------------------
+Unity 5 Compatible
+Fixed terrain issue with non origin based tracks
+Fixed side collider not saving state
+
+------------------------------------------------------
+1.27 - 6 December 2014
+------------------------------------------------------
+ADDED bumper modes, automatic, always, left and right.
+Fixed BuildR compatibility issues with conflicting script names
+Fixed export function
+
+------------------------------------------------------
+1.26b - 20 November 2014
+------------------------------------------------------
+Fixed track end with camber supported
+Fixed the max extrusion to 100
+Fixed KML Import issue with coordinateless nodes
+
+------------------------------------------------------
+1.25 - 8 November 2014
+------------------------------------------------------
+Fixed track end bug
+Fixed loop bug with laying out track mode
+Fixed additional bumper height using wrong height vector
+
+------------------------------------------------------
+1.24 - 26 October 2014
+------------------------------------------------------
+Added Physical Materials to Textures
+Added a default texture to the extruded track parts
+
+------------------------------------------------------
+1.23 - 16 September 2014
+------------------------------------------------------
+Fixed errors on deleting Track BuildR
+
+------------------------------------------------------
+1.22 - 26 August 2014
+------------------------------------------------------
+Fixed texture issue with laying out track points
+
+------------------------------------------------------
+1.21 - 20 August 2014
+------------------------------------------------------
+Fixed preview image unsupported format
+Fixed track loop issue
+
+------------------------------------------------------
+1.2 - 28 April 2014
+------------------------------------------------------
+ADDED Terrain Merge Support
+ADDED Fit Track to Terrain
+ADDED Stunt Mode options to allow easy one button click stunt part addition (loop, jump, twist jump)
+ADDED Preview options for forward/reverse and where the start point is.
+ADDED polycount display for track
+Fixed preview not accounting for track position
+
+------------------------------------------------------
+1.11 - 13 April 2014
+------------------------------------------------------
+ADDED Google Earth KML data import
+ADDED User material support
+Fixed track boundary not matching track position
+Fixed some XML data not exporting correctly
+Fixed shader selection to show available shaders after 4.3 change
+Fixed track not updating on texture modification
+
+------------------------------------------------------
+1.1 - 19 March 2014 Stunt Track Update
+------------------------------------------------------
+WARNING Track BuildR 1.1 does not support 1.0 tracks - email me if you do need to upgrade and check the readme
+ADDED Support for Loops, Twists, Bridges and Jumps Added
+ADDED One click add loop function added
+ADDED Track extrusion added
+ADDED FBX/OBJ Export
+ADDED XML export and import
+ADDED Substance Texture Support
+ADDED minor adjustments to UI
+Fixed add point not working accurately
+Fixed new Undo system
+Known Issue lightmapping may give an error, this is a bug logged with Unity and will hopefully be resolved soon
+
+------------------------------------------------------
+1.0 - 15 August 2013
+------------------------------------------------------
+Inital release
